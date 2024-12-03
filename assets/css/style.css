@@ -1,9 +1,16 @@
+body{
+    background-image: url(/assets/img/bord.webp);
+}
+
 #container{
+    opacity: 0.5;
     width: 936px;
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
+    margin-left: 124px;
+    margin-top: 146px;
 }
 
 #left{
@@ -27,4 +34,51 @@
     height: 335px;
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
+}
+
+.witVierkantRechts{
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 36px;
+}
+
+.blauwVierkantKlijn{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 106);
+}
+
+.spoorText{
+    position: absolute;
+    margin-left: 23px;
+    font-size: 11px;
+    line-height: 17px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+}
+
+.nummer{
+    position: absolute;
+    left: 5px;
+    top: 22px;
+    font-size: 67px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+    letter-spacing: -7px;
+}
+
+.b{
+    position: absolute;
+    left: 70px;
+    top: 31px;
+    font-size: 30px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+    letter-spacing: -7px;
 }
