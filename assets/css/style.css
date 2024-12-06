@@ -1,16 +1,16 @@
 body{
-    background-image: url(/assets/img/bord.webp);
+    /* background-image: url(/assets/img/bord.webp); */
 }
 
 #container{
-    opacity: 0.5;
+    /* opacity: 0.5; */
     width: 936px;
     display: flex;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
-    margin-left: 124px;
-    margin-top: 146px;
+    /* margin-left: 124px; */
+    /* margin-top: 146px; */
 }
 
 #left{
@@ -23,7 +23,7 @@ body{
 #middle {
     width: 568px;
     height: 339px;
-    background-color: rgb(0, 0, 106);
+    background-color: rgb(0, 0, 150);
     padding: 35px;
     box-sizing: border-box;
     border: 2px solid #000;
@@ -32,7 +32,7 @@ body{
 #right{
     width:128px;
     height: 335px;
-    background-color: rgb(0, 0, 106);
+    background-color: rgb(0, 0, 150);
     border: 2px solid #000;
 }
 
@@ -51,7 +51,8 @@ body{
     right: 0;
     width: 20px;
     height: 20px;
-    background-color: rgb(0, 0, 106);
+    background-color: rgb(0, 0, 150);
+
 }
 
 .spoorText{
@@ -59,7 +60,7 @@ body{
     margin-left: 23px;
     font-size: 11px;
     line-height: 17px;
-    color: rgb(0, 0, 106);
+    color: rgb(0, 0, 150);
     font-weight: bold;
 }
 
@@ -68,7 +69,7 @@ body{
     left: 5px;
     top: 22px;
     font-size: 67px;
-    color: rgb(0, 0, 106);
+    color: rgb(0, 0, 150);
     font-weight: bold;
     letter-spacing: -7px;
 }
@@ -78,7 +79,126 @@ body{
     left: 70px;
     top: 31px;
     font-size: 30px;
-    color: rgb(0, 0, 106);
+    color: rgb(0, 0, 150);
     font-weight: bold;
     letter-spacing: -7px;
+}
+
+.hiernaBalk{
+    position: relative;
+    width: 480px;
+    height: 25px;
+    background-color: rgb(0, 0, 106);
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.hiernaText{
+    position: absolute;
+    left: 13px;
+    top: 2px;
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.hiernaText span{
+    font-style: italic;
+}
+
+.hooftSchermWit{
+    position: relative;
+    width: 480px;
+    height: 240px;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.tijdTot{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 245px;
+    height: 40px;
+    background-color: white;
+}
+
+.tijdTotTijd{
+    position: absolute;
+    left: 13px;
+    top: -5px;
+    font-size: 39px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+}
+
+.tijdTotText{
+    position: absolute;
+    left: 41px;
+    top: 7px;
+    font-size: 25px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+}
+
+.trijnType{
+    position: absolute;
+    left: 244px;
+    top: -3px;
+    font-size: 38px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+}
+
+.logo img{
+    position: absolute;
+    left: 397px;
+    top: 1px;
+    width: 78px;
+    height: 33px;
+}
+
+.plaats{
+    position: absolute;
+    left: 12px;
+    top: 38px;
+    font-size: 40px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+}
+
+.via1{
+    position: absolute;
+    left: 13px;
+    top: 93px;
+    font-size: 24px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+}
+
+.via2{
+    position: absolute;
+    left: 15px;
+    top: 129px;
+    font-size: 24px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+}
+
+.wagonen img{
+    position: absolute;
+    left: 127px;
+    top: 210px;
+    width: 227px;
+    height: 27px;
+}
+
+.klok img{
+    position: relative;
+    left: 17px;
+    top: 16px;
+    width: 202px;
+    height: 202px;
 }
